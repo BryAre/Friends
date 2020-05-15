@@ -565,8 +565,8 @@ def approve():
             type(conn)
             conn.ehlo()
             conn.starttls()
-            conn.login('bryarebryare@gmail.com', 'lrdyjaqhafhluolu')
-            conn.sendmail('bryarebryare@gmail.com',
+            conn.login('youremail@somemail', 'yourpassword')
+            conn.sendmail('youremail@somemail',
                           email, 'Subject:', "PASSWORD")
             conn.quit()
     else:
